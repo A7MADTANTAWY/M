@@ -1,0 +1,68 @@
+# =========================
+# Python Core
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.venv/
+.env_python/
+
+# =========================
+# Django Specific
+# =========================
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# =========================
+# Django Migrations
+# =========================
+**/migrations/*
+!**/migrations/__init__.py
+
+# =========================
+# Environment Variables & Secrets
+# =========================
+.env
+.env.local
+.env.*
+*.env
+
+# =========================
+# IDEs & Text Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.pycharm_helpers/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# =========================
+# Build & Packaging (Optional)
+# =========================
+build/
+dist/
+*.egg-info/
+*.tmp
